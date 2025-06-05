@@ -1,0 +1,5 @@
+laravelapp/vendor/
+laravelapp/node_modules/
+laravelapp/.env
+laravelapp/storage/
+laravelapp/bootstrap/cache/
