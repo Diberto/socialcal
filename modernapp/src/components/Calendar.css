@@ -1,0 +1,32 @@
+.calendar {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.header .today {
+  margin-left: auto;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 4px;
+}
+.dow {
+  text-align: center;
+  font-weight: bold;
+}
+.day {
+  border: 1px solid #ccc;
+  min-height: 80px;
+  padding: 2px;
+}
+.day .num {
+  font-weight: bold;
+}
