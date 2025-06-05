@@ -3,3 +3,6 @@ laravelapp/node_modules/
 laravelapp/.env
 laravelapp/storage/
 laravelapp/bootstrap/cache/
+modernapp/node_modules/
+modernapp/dist/
+modernapp/package-lock.json
